@@ -41,6 +41,6 @@ RSpec.describe 'luokka Pelaaja' do
 
     p1.pituus = 171
     expect(p1.pituus).to eq(171)
-    expect(p1.to_s).to eq("chang (171 cm) maaleja 0")
+    expect(p1.to_s).to eq("chang (171 cm) maaleja 1")
   end
 end
